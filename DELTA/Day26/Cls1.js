@@ -1,4 +1,4 @@
 async function greet() {
-    return "Hello";
+    return "Hello"; //Returns a promise
 }
 
