@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* h1{
+    background-color: aqua;
+    color: rgb(243, 8, 8);
+    
+} */
+
+p{
+    /* background-color: black; */
+    background-color: rgb(45, 183, 98);
+    color: rgb(244, 25, 25);
+}
+
+button{
+    background-color: gray;
+    color: aqua;
+}
+
+body{
+    background-color: rgb(171, 237, 171);
+}
+
+#head1{
+    color: rgb(22, 199, 222);
+}
+
+#head2{
+    color: rgb(195, 22, 222);
+}
+
+#head3{
+    color: rgb(150, 228, 26);
+}
+
+.firstdiv{
+    /* text-align: right; */
+    /* text-align: start; */
+    text-align: end;
+}
+
+.divhead{
+    text-align: center;
+    /* text-decoration: aqua overline; */
+    /* text-decoration: red underline; */
+    text-decoration: red overline underline;
+}
+
+
+#demo{
+    /* font-weight: bold; */
+    font-weight: 100;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: 20px;
+    /* line-height: 50px; */
+
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    text-transform: none;
+}

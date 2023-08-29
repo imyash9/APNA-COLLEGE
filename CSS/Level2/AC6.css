@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    border: 2px double aqua;
+}
+
+div{
+    text-align: center;
+    border: 2px double rgb(245, 12, 12);
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    padding: 13px;
+    margin: 34px;
+}

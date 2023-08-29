@@ -1,0 +1,47 @@
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: #0ff;
+}
+
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: #fff200;
+}
+
+.div3{
+    height: 200px;
+    width: 200px;
+    background-color: #33ff00;
+}
+
+.div4{
+    height: 200px;
+    width: 200px;
+    background-color: #ff0000;
+}
+
+@media (max-width:300px){
+    .div1{
+       background-color: #00ff00;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px){
+    .div2{
+        background-color: #ff00e6;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    .div3{
+        background-color: #ff0000;
+    }
+}
+
+@media (min-width:600px){
+    .div4{
+        background-color: #1500ff;
+    }
+}

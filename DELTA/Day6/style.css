@@ -1,0 +1,82 @@
+*{
+    font-family: 'Courier New';
+}
+
+/* h1{
+    color: #e6316d;
+}
+
+h3{
+    color: #e603e6;
+} */
+
+h1, h3{
+    color: #e60380;
+}
+
+#login{
+    background-color: #0aec37;
+}
+
+#signup{
+    background-color: #db1b1b;
+}
+
+.upvote{
+    background-color: #0aec37;
+
+}
+
+nav ul li a {
+    color: hotpink;
+}
+
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: #8787de;
+}
+
+div > input {
+    background-color: #e28181;
+}
+
+input[type="text"] {
+    color: #0d00ff;
+}
+
+input[type="password"] {
+    color: #00ff26;
+}
+
+input[type] {
+    background-color: #cd8484;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+input[type="radio"]:checked + label {
+color: red;
+font-weight: bold;
+
+}
+
+div:nth-of-type(2n){
+    background-color: #0af9ed;
+}
+
+h3{
+    background-color: #09c3f1;
+}
+h3{
+    background-color: #ddd532;
+}

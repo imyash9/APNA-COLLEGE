@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Part 6</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            height: 600px;
+            width: 1200px;
+            border: 2px solid black;
+            margin: auto;
+            display: grid;
+            grid-template-rows: repeat(12, 1fr);
+            grid-template-columns: repeat(12, 1fr);
+            gap: 10px;
+        }
+        
+        .item {
+            background-color: #eab5ea;
+            border: 2px solid #fff;
+        }
+
+        #box1 {
+            grid-row: 1;
+            grid-column: 1 / span 12;
+        }
+
+        #box2 {
+            grid-row: 2 /span 1;
+            grid-column: 4 / span 6;          
+        }
+
+        #box3 {
+            grid-row: 2 / span 10;
+            grid-column: 1 / span 3;
+        }
+
+        #box4 {
+            grid-row: 3 / span 9;
+            grid-column: 4 / span 6;
+        }
+        
+        #box5 {
+            grid-row: 2 / span 10;
+            grid-column: 10 / span 3;          
+        }
+
+        #box6 {
+            grid-row: 12;
+            grid-column: 1 / span 12;
+        }
+
+      @media (max-width:720px){
+        #box1 {
+            grid-row: 1;
+            grid-column: 1 / span 12;
+        }
+
+        #box2 {
+            grid-row: 2;
+            grid-column: 1 / span 12;          
+        }
+
+        #box3 {
+            grid-row: 3 / span 9;
+            grid-column: 1 / span 3;
+        }
+
+        #box4 {
+            grid-row: 3 / span 9;
+            grid-column: 4 / span 9;
+        }
+        
+        #box5 {
+            grid-row: 12;
+            grid-column: 1 / span 3;          
+        }
+
+        #box6 {
+            grid-row: 12;
+            grid-column: 4 / span 9;
+        }
+      }
+    </style>
+</head>
+
+<body>
+    <h1>Grid Things</h1>
+    <div class="container">
+        <div class="item" id="box1">Header (1row,12columns)</div>
+        <div class="item" id="box2">Navigation(1row, 3columns) </div>
+        <div class="item" id="box3">Sidebar (10row, 3columns)</div>
+        <div class="item" id="box4">Main(9row, 6columns) </div>
+        <div class="item" id="box5">Ads(3row, 10columns) </div>
+        <div class="item" id="box6">Footer(1row,12columns) </div>
+    </div>
+</body>
+
+</html>

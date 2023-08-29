@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Part 2 Assignment Questions</title>
+    <style>
+        *{
+            text-align: center;
+        }
+
+        #mainTopic{
+            color: #00f;
+        }
+
+        h1,h3,h5{
+            font-family: Georgia;
+        }
+        .para{
+            background-color: #6495ed;
+            color: #fff;
+        }
+
+        div button{
+            background-color: #800080;
+            color: #f0ffff;
+        }
+
+        button:hover{
+            background-color: #ff0;
+            color: #00f;
+        }
+        p:nth-child(odd){
+            color: #ff0;
+        }
+        h1::first-letter{
+            color: #f00;
+        }
+
+        #yes:checked + label{
+            color: #006400;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="mainTopic">CSS Practice</h1>
+    <h3>Let's Learn about selector.</h3>
+
+    <!-- Paragraph1 -->
+    <p class="para">There are multiple selectors in css </p>
+
+    <!-- Paragraph2 -->
+    <p class="para">Some of them include class selector id selector etc.</p>
+
+    <!-- Paragraph3 -->
+    <p class="para">And we can also combine thede too.</p>
+
+    <div>
+        <h5>Did you like the praactice set?</h5>
+        <input type="checkbox" id="yes">
+        <label for="yes">Yes</label>
+        <br/>
+        <button>Learn next!</button>
+    </div>
+</body>
+</html>

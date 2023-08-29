@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            background-color: aqua;
+            transition:  2s 1s;
+        }
+
+        div:hover {
+            height: 200px;
+            width: 200px;
+            background-color: #00f;
+            border-radius: 10px;
+        }
+
+        .rotate{
+            height: 200px;
+            width: 200px;
+            background-color: #f11919;
+            border: 2px solid black;
+            /* transform: rotate(45deg); */
+            /* transform: scale(2); */
+               /* transform: translate(200px); */
+            transform: skew(120deg);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+    </div>
+
+    <div class="rotate"></div>
+</body>
+
+</html>

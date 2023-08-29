@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE QS 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .out {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #8EC5FC;
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+        }
+
+        .main {
+            height: 250px;
+            width: 100px;
+            /* border: 2px solid black; */
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .second {
+            height: 225px;
+            width: 75px;
+            border: 2px solid black;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .lights {
+            height: 50px;
+            width: 50px;
+            border: 1px solid black;
+            border-radius: 50%;
+
+        }
+
+        #red {
+            background-color: #f00;
+        }
+
+        #yellow {
+            background-color: #ffff00;
+        }
+
+        #green {
+            background-color: #008000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="out">
+        <div class="main">
+            <div class="second">
+                <div class="lights" id="red"></div>
+                <div class="lights" id="yellow"></div>
+                <div class="lights" id="green"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

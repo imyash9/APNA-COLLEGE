@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption page</title>
+    <style>
+        h2 i{
+            color: #ff7300;
+        }
+        h1 span{
+            color: #ff7300;
+        }
+
+        #pets{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .card{
+            height: 600px;
+            width: 350px;
+            border: 2px solid black;
+            border-radius: 15px;
+            text-align: center;
+
+        }
+
+        .card img{
+            height: 300px;
+            border-radius: 15px;
+            margin: 12px;
+
+        }
+        .card p{
+            padding: 5px;
+        }
+
+        @media (max-width: 700px){
+            #pets{
+                flex-wrap: wrap;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h2><i>adoptthem.com</i></h2>
+    <h1>Adopt a <span>PET</span> Today</h1>
+    <br/><br/>
+    <div id="pets">
+        <div class="card">
+            <img src="./dog.jpg" alt="Jerry">
+            <h3>Meet Jerry</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae vitae, perferendis culpa eaque eos facere vel necessitatibus velit inventore quae a facilis, dolores corporis asperiores numquam cumque saepe cum deserunt, odit dicta. Rem delectus eligendi accusantium maiores recusandae autem. Quos, iure assumenda. At, fugit voluptatibus laudantium dolorem, reiciendis incidunt autem sequi vitae optio hic numquam expedita iure enim necessitatibus. Cum placeat, quis dolorum nostrum omnis soluta </p>
+        </div>
+
+        <div class="card">
+            <img src="./cat.jpg" alt="Tom">
+            <h3>Meet Tom</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae vitae, perferendis culpa eaque eos facere vel necessitatibus velit inventore quae a facilis, dolores corporis asperiores numquam cumque saepe cum deserunt, odit dicta. Rem delectus eligendi accusantium maiores recusandae autem. Quos, iure assumenda. At, fugit voluptatibus laudantium dolorem, reiciendis incidunt autem sequi vitae optio hic numquam expedita iure enim necessitatibus. </p>
+        </div>
+    </div>
+</body>
+</html>
